@@ -1,0 +1,522 @@
+{
+	"info": {
+		"_postman_id": "f6dd968c-ef25-4ab4-915c-c80a20984c03",
+		"name": "Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "callao y corrientes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=callao y corrientes, caba",
+					"protocol": "http",
+					"host": [
+						"servicios",
+						"usig",
+						"buenosaires",
+						"gob",
+						"ar"
+					],
+					"path": [
+						"normalizar",
+						""
+					],
+					"query": [
+						{
+							"key": "direccion",
+							"value": "callao y corrientes, caba"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Belgrano y medrano",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=belgrano%20y%20medrano",
+					"protocol": "http",
+					"host": [
+						"servicios",
+						"usig",
+						"buenosaires",
+						"gob",
+						"ar"
+					],
+					"path": [
+						"normalizar",
+						""
+					],
+					"query": [
+						{
+							"key": "direccion",
+							"value": "belgrano%20y%20medrano"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "belgrano y loria",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=belgrano y loria, caba",
+					"protocol": "http",
+					"host": [
+						"servicios",
+						"usig",
+						"buenosaires",
+						"gob",
+						"ar"
+					],
+					"path": [
+						"normalizar",
+						""
+					],
+					"query": [
+						{
+							"key": "direccion",
+							"value": "belgrano y loria, caba"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "#",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=#",
+					"protocol": "https",
+					"host": [
+						"servicios",
+						"usig",
+						"buenosaires",
+						"gob",
+						"ar"
+					],
+					"path": [
+						"normalizar",
+						""
+					],
+					"query": [
+						{
+							"key": "direccion",
+							"value": ""
+						}
+					],
+					"hash": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Medrano Maxoptions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=medrano&maxOptions=",
+					"protocol": "https",
+					"host": [
+						"servicios",
+						"usig",
+						"buenosaires",
+						"gob",
+						"ar"
+					],
+					"path": [
+						"normalizar",
+						""
+					],
+					"query": [
+						{
+							"key": "direccion",
+							"value": "medrano"
+						},
+						{
+							"key": "maxOptions",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "medrano maxoptions 25",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=medrano&maxOptions=25",
+					"protocol": "http",
+					"host": [
+						"servicios",
+						"usig",
+						"buenosaires",
+						"gob",
+						"ar"
+					],
+					"path": [
+						"normalizar",
+						""
+					],
+					"query": [
+						{
+							"key": "direccion",
+							"value": "medrano"
+						},
+						{
+							"key": "maxOptions",
+							"value": "25"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "La rioja y venezuela geocodificar true",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=la rioja y venezuela&geocodificar=TRUE",
+					"protocol": "http",
+					"host": [
+						"servicios",
+						"usig",
+						"buenosaires",
+						"gob",
+						"ar"
+					],
+					"path": [
+						"normalizar",
+						""
+					],
+					"query": [
+						{
+							"key": "direccion",
+							"value": "la rioja y venezuela"
+						},
+						{
+							"key": "geocodificar",
+							"value": "TRUE"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "belgrano al 2000",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=belgrano 2000",
+					"protocol": "http",
+					"host": [
+						"servicios",
+						"usig",
+						"buenosaires",
+						"gob",
+						"ar"
+					],
+					"path": [
+						"normalizar",
+						""
+					],
+					"query": [
+						{
+							"key": "direccion",
+							"value": "belgrano 2000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lng y lat sin parametros",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://servicios.usig.buenosaires.gob.ar/normalizar/?lng=&lat=",
+					"protocol": "https",
+					"host": [
+						"servicios",
+						"usig",
+						"buenosaires",
+						"gob",
+						"ar"
+					],
+					"path": [
+						"normalizar",
+						""
+					],
+					"query": [
+						{
+							"key": "lng",
+							"value": ""
+						},
+						{
+							"key": "lat",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Mar Argentino Coordenadas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://servicios.usig.buenosaires.gob.ar/normalizar/?lng=-34.503936789810645&lat=-58.391682342784605\n",
+					"protocol": "https",
+					"host": [
+						"servicios",
+						"usig",
+						"buenosaires",
+						"gob",
+						"ar"
+					],
+					"path": [
+						"normalizar",
+						""
+					],
+					"query": [
+						{
+							"key": "lng",
+							"value": "-34.503936789810645"
+						},
+						{
+							"key": "lat",
+							"value": "-58.391682342784605\n"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fuera del Pais: Uruguay coordenadas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://servicios.usig.buenosaires.gob.ar/normalizar/?lng=-57.64873190265844&lat=-34.08870310021978",
+					"protocol": "https",
+					"host": [
+						"servicios",
+						"usig",
+						"buenosaires",
+						"gob",
+						"ar"
+					],
+					"path": [
+						"normalizar",
+						""
+					],
+					"query": [
+						{
+							"key": "lng",
+							"value": "-57.64873190265844"
+						},
+						{
+							"key": "lat",
+							"value": "-34.08870310021978"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Puente Zarate coordenadas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://servicios.usig.buenosaires.gob.ar/normalizar/?lng=-59.01240988147996&lat=-34.09111986755885",
+					"protocol": "https",
+					"host": [
+						"servicios",
+						"usig",
+						"buenosaires",
+						"gob",
+						"ar"
+					],
+					"path": [
+						"normalizar",
+						""
+					],
+					"query": [
+						{
+							"key": "lng",
+							"value": "-59.01240988147996"
+						},
+						{
+							"key": "lat",
+							"value": "-34.09111986755885"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "belgrano y yapeyu cordenadas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://servicios.usig.buenosaires.gob.ar/normalizar/?lng=-58.42174505167351&lat=-34.61578279514512",
+					"protocol": "http",
+					"host": [
+						"servicios",
+						"usig",
+						"buenosaires",
+						"gob",
+						"ar"
+					],
+					"path": [
+						"normalizar",
+						""
+					],
+					"query": [
+						{
+							"key": "lng",
+							"value": "-58.42174505167351"
+						},
+						{
+							"key": "lat",
+							"value": "-34.61578279514512"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Loria y la plata",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=loria%20y%20la%20plata",
+					"protocol": "http",
+					"host": [
+						"servicios",
+						"usig",
+						"buenosaires",
+						"gob",
+						"ar"
+					],
+					"path": [
+						"normalizar",
+						""
+					],
+					"query": [
+						{
+							"key": "direccion",
+							"value": "loria%20y%20la%20plata"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Hipolito Yrigoyen coordenadas TipoResultado calle y calle",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://servicios.usig.buenosaires.gob.ar/normalizar/?lng=-58.3830992737056&lat=-34.67697926975502&tipoResultado=calle_y_calle",
+					"protocol": "https",
+					"host": [
+						"servicios",
+						"usig",
+						"buenosaires",
+						"gob",
+						"ar"
+					],
+					"path": [
+						"normalizar",
+						""
+					],
+					"query": [
+						{
+							"key": "lng",
+							"value": "-58.3830992737056"
+						},
+						{
+							"key": "lat",
+							"value": "-34.67697926975502"
+						},
+						{
+							"key": "tipoResultado",
+							"value": "calle_y_calle"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Beauchef coordenadas tipoResultado: Calle altura",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://servicios.usig.buenosaires.gob.ar/normalizar/?lng=-58.43356771854414&lat=-34.62374122200933&tipoResultado=calle_altura",
+					"protocol": "https",
+					"host": [
+						"servicios",
+						"usig",
+						"buenosaires",
+						"gob",
+						"ar"
+					],
+					"path": [
+						"normalizar",
+						""
+					],
+					"query": [
+						{
+							"key": "lng",
+							"value": "-58.43356771854414"
+						},
+						{
+							"key": "lat",
+							"value": "-34.62374122200933"
+						},
+						{
+							"key": "tipoResultado",
+							"value": "calle_altura"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
